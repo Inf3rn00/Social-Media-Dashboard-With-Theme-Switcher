@@ -5,6 +5,7 @@
   --Twitter-primary: hsl(203, 89%, 53%);
   --Instagram-primary: hsl(329, 70%, 58%);
   --Youtube-primary: hsl(348, 97%, 39%);
+  --hover:  rgb(219, 228, 242);;
 
   
 
@@ -31,6 +32,7 @@ body {
   --cardsBackground: hsl(228, 28%, 20%); /*dark mode cards*/ 
   --textColourSecondary: hsl(228, 34%, 66%);/*dark mode text*/ 
   --textColourPrimary: hsl(0, 0%, 100%);/*dark mode text*/ 
+  --hover:#383e58;
 }
 
 h1,
@@ -174,7 +176,7 @@ input[type="checkbox"]:checked + .toggle-bg .toggle-circle {
 .box-container3:hover,
 .box-container4:hover,
 .overview-box:hover{
-  background-color: rgb(219, 228, 242);
+  background-color:var(--hover);
   cursor: pointer;  
 }
 
