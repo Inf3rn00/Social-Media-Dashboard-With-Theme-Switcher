@@ -169,6 +169,15 @@ input[type="checkbox"]:checked + .toggle-bg .toggle-circle {
   }
 }
 
+.box-container:hover,
+.box-container2:hover,
+.box-container3:hover,
+.box-container4:hover,
+.overview-box:hover{
+  background-color: rgb(219, 228, 242);
+  cursor: pointer;  
+}
+
 .box-container {
   min-width: 250px;
   height: 200px;
